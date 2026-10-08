@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabricio RSN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="nav-bar">
+        <div class="logo">Fabricio</div>
+        <ul>
+            <a href="#">
+                <li>Sobre</li>
+            </a>
+            <a href="#"><li>Projetos</li></a>
+            <a href="#">
+                <li>Certificado</li>
+            </a>
+            <a href="#">
+                <li>Contato</li>
+            </a>
+        </ul>
+    </header>
+
+
+    <div id="banner">
+        <div id="apresentacao">
+            <div id="nome"> <b>Fabrico <strong style="color: #2369E9;">Rocha</strong> <br> Souza Neves</b> </div>
+            <div id="descricao">
+                <p> <b> Estudante de Engenharia de Software no 4º período da UniBH. Desenvolvedor em formação,
+                        apaixonado por tecnologia e engenharia, sempre buscando aprender, evoluir e transformar
+                        conhecimentos em projetos.<b> </b></p>
+            </div>
+            <div id="ProCurri">
+                <div id="verProjetos"> Ver Projetos</div>
+                <div id="curriculo"> <a href="curriculo-fabricio-rocha-.pdf" id="stCurri" target="_blank">Baixar
+                        Currículo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🡇</a> </div>
+            </div>
+            <div id="redes">
+                <div class="redeIcons" style="padding-left: 0; margin-left: 0;"> <a
+                        href="https://www.linkedin.com/in/fabricio-rocha-souza-neves/" target="_blank"><img
+                            src="img/linkedin.png" alt="Linkedin" class="redeIconIm"></a> </div>
+                <div class="redeIcons"> <a href="https://github.com/miudo-rsn" target="_blank"><img src="img/github.png"
+                            alt="GitHub" class="redeIconIm"></a> </div>
+                <div class="redeIcons"> <a href="mailto:fabricio2007rocha@gmail.com" target="_blank"><img
+                            src="img/email.png" alt="Email" class="redeIconIm"></a> </div>
+            </div>
+        </div>
+    </div>
+
+    <a id="projetos"></a>
+    <div id="mProjetos">
+        <div id="titulo">Meus Projetos</div>
+        <div id="desProjeto">Aqui estão alguns projetos que desenvolvi, abrangendo tanto a área de engenharia quanto a
+            de software, e até mesmo a integração entre ambas. Você pode vê-los prontos, explorar os detalhes, acessar o
+            código-fonte e, em alguns casos, até testá-los</div>
+        <div>
+            <div class="projetos">
+
+                <div class="projeto">
+                    <div class="projeto-imagem"><img src="img/portifolio.jpeg" alt="Projeto 1" class="projeto-img">
+                    </div>
+                    <div class="projeto-titulo">Meu portifólio</div>
+                    <div class="ferramentas" style="display: flex;">
+                        <div class="ferramenta">HTML</div>
+                        <div class="ferramenta">CSS</div>
+                    </div>
+                    <div class="projeto-descricao">Portfólio desenvolvido por mim para apresentar quem sou, o que
+                        aprendi até o momento e como estou colocando esse conhecimento em prática</div>
+                    <div class="projeto-links">
+                        <div class="projeto-link"><a href="#" class="a"> <b id="vp"> Ver Projeto </b> </a></div>
+                        <div id="iconGit"> <a href="https://github.com/miudo-rsn" target="_blank"><img
+                                    src="img/github.png" alt="GitHub" id="git"> <span
+                                    style="color: white; text-decoration: none;">GitHub</span> </a> </div>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <div class="projeto-imagem"><img src="img/termoeletrico.png" alt="Projeto 1" class="projeto-img">
+                    </div>
+                    <div class="projeto-titulo">Motor termoelétrico</div>
+                    <div class="ferramentas" style="display: flex;">
+                        <div class="ferramenta">Recicláveis</div>
+                        <div class="ferramenta">Física</div>
+                    </div>
+                    <div class="projeto-descricao">Conversão de energia térmica em elétrica, o calor faz o motor girar,
+                        que movimenta um gerador, transformando a energia mecânica em energia elétrica e acendendo um
+                        LED. <br> </div>
+                    <div class="projeto-links">
+                        <div class="projeto-link"><a href="#" class="a"> <b id="vp"> Ver Projeto </b> </a></div>
+                        <div id="iconGit"> <a href="https://github.com/miudo-rsn" target="_blank"><img
+                                    src="img/github.png" alt="GitHub" id="git"> <span
+                                    style="color: white; text-decoration: none;">GitHub</span> </a> </div>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <div class="projeto-imagem"><img src="img/sopmac.jpeg" alt="Projeto 1" class="projeto-img"></div>
+                    <div class="projeto-titulo">Site SOPMAC - empreiteira (Primeiro Site)</div>
+                    <div class="ferramentas" style="display: flex;">
+                        <div class="ferramenta">HTML</div>
+                    </div>
+                    <div class="projeto-descricao">Primeiro site desenvolvido por mim para um amigo que trabalha com
+                        calçamento. É um site simples, criado utilizando os conhecimentos adquiridos no início do curso
+                        de desenvolvimento web.</div>
+                    <div class="projeto-links">
+                        <div class="projeto-link"><a href="#" class="a"> <b id="vp"> Ver Projeto </b> </a></div>
+                        <div id="iconGit"> <a href="https://github.com/miudo-rsn" target="_blank"><img
+                                    src="img/github.png" alt="GitHub" id="git"> <span
+                                    style="color: white; text-decoration: none;">GitHub</span> </a> </div>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <div class="projeto-imagem"><img src="img/inprogressfront.png" alt="Projeto 1" class="projeto-img">
+                    </div>
+                    <div class="projeto-titulo">Calculadora combustível</div>
+                    <div class="ferramentas" style="display: flex;">
+                        <div class="ferramenta">python</div>
+                    </div>
+                    <div class="projeto-descricao">Sistema que calcula se compensa abastecer em um posto mais barato,
+                        indicando se vale a pena ou não. Caso compense, mostra o quanto; se não compensa, informa o
+                        mínimo necessário para que valha a pena</div>
+                    <div class="projeto-links">
+                        <div class="projeto-link"><a href="#" class="a"> <b id="vp"> Ver Projeto </b> </a></div>
+                        <div id="iconGit"> <a href="https://github.com/miudo-rsn" target="_blank"><img
+                                    src="img/github.png" alt="GitHub" id="git"> <span
+                                    style="color: white; text-decoration: none;">GitHub</span> </a> </div>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <div class="projeto-imagem"><img src="img/inprogress.png" alt="Projeto 1" class="projeto-img"></div>
+                    <div class="projeto-titulo">Esteira Separaora</div>
+                    <div class="ferramentas" style="display: flex;">
+                        <div class="ferramenta">Arduíno</div>
+                        <div class="ferramenta">Sensores</div>
+                        <div class="ferramenta">C/C++</div>
+                    </div>
+                    <div class="projeto-descricao">Esteira automatizada que separa pacotes pela cor e realiza a
+                        contagem, desenvolvida com Arduino e sensores, como parte de um trabalho acadêmico.</div>
+                    <div class="projeto-links">
+                        <div class="projeto-link"><a href="#" class="a"> <b id="vp"> Ver Projeto </b> </a></div>
+                        <div id="iconGit"> <a href="https://github.com/miudo-rsn" target="_blank"><img
+                                    src="img/github.png" alt="GitHub" id="git"> <span
+                                    style="color: white; text-decoration: none;">GitHub</span> </a> </div>
+                    </div>
+                </div>
+
+                <div class="projeto">
+                    <div class="projeto-imagem"><img src="img/preta.jpg" alt="Projeto 1" class="projeto-img"></div>
+                    <div class="projeto-titulo"></div>
+                    <div class="ferramentas" style="display: flex;">
+                        <div class="ferramenta"></div>
+                        <div class="ferramenta"></div>
+                        <div class="ferramenta"></div>
+                    </div>
+                    <div class="projeto-descricao">Descrição do projeto 1</div>
+                    <div class="projeto-links">
+                        <div class="projeto-link"><a href="#" class="a"> <b id="vp"> Ver Projeto </b> </a></div>
+                        <div id="iconGit"> <a href="https://github.com/miudo-rsn" target="_blank"><img
+                                    src="img/github.png" alt="GitHub" id="git"> <span
+                                    style="color: white; text-decoration: none;">GitHub</span> </a> </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
